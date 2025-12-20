@@ -8,6 +8,7 @@
 }
 
 /* bottom left */
+/* don't removal this (for "health bar" and "health num") */
 #bottomLeftPlayer {
 	border-radius: 0px;
 	background-color: var(--div-black);
@@ -42,13 +43,11 @@
     left: calc(50% - 310px);
     bottom: 50px
 }
-  
 .nHealthBarSeg {
     height: 23px;
     margin: 0 -4.5px;
     background:transparent
 }
-
 .nHpBSeg {
     border-radius: 4px
 }
